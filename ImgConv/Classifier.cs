@@ -18,7 +18,7 @@ namespace ImgConv
         }
 
         private Net net = null;
-        private Trainer trainer = null;
+        public Trainer trainer = null;
 
         public InputFormat format = InputFormat.Greyscale;
         public int width = -1;
@@ -137,15 +137,28 @@ namespace ImgConv
             return this.net.Forward(this.GetVolumeFromBitmap(bmp), false).Weights;
         }
 
-        public void Train(Bitmap bmp, double value)
+        //public Volume RunV(Bitmap bmp)
+        //{
+        //    //Volume prob = this.net.Forward(this.GetVolumeFromBitmap(bmp), false);
+        //    //return prob.Weights;
+        //    return this.net.Forward(this.GetVolumeFromBitmap(bmp), false);
+        //}
+
+        public void Train(Bitmap bmp, double value, int repeats = 5)
         {
-            this.trainer.Train(GetVolumeFromBitmap(bmp), value);
+            for (int i = 0; i < repeats; i++)
+            {
+                this.trainer.Train(GetVolumeFromBitmap(bmp), value);
+            }
         }
 
-        public void Train(Bitmap bmp, params double[] value)
-        {
-            this.trainer.Train(GetVolumeFromBitmap(bmp), value);
-        }
+        //public void Train(Bitmap bmp, params double[] value)
+        //{
+        //    for (int i = 0; i < 100; i++)
+        //    {
+        //        this.trainer.Train(GetVolumeFromBitmap(bmp), value);
+        //    }
+        //}
     }
 
     #region exceptions
