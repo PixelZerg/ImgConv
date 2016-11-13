@@ -1,0 +1,14 @@
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ImgConvDemo.exe.config
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ImgConvDemo.exe
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ImgConvDemo.pdb
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ConvNetSharp.dll
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ImgConv.dll
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ImgConv.pdb
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\bin\Debug\ConvNetSharp.pdb
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.csprojResolveAssemblyReference.cache
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.Display.resources
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.Properties.Resources.resources
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.csproj.GenerateResource.Cache
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.exe
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.pdb
+C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.VolumeDisplay.resources

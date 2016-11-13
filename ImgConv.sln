@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgConv", "ImgConv\ImgConv.csproj", "{05631291-C712-4AB0-BD01-941ED41EC853}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImgConvDemo", "ImgConvDemo\ImgConvDemo.csproj", "{7709B7CA-1DBE-48E1-A59A-0DF2EB507E98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05631291-C712-4AB0-BD01-941ED41EC853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05631291-C712-4AB0-BD01-941ED41EC853}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05631291-C712-4AB0-BD01-941ED41EC853}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05631291-C712-4AB0-BD01-941ED41EC853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7709B7CA-1DBE-48E1-A59A-0DF2EB507E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7709B7CA-1DBE-48E1-A59A-0DF2EB507E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7709B7CA-1DBE-48E1-A59A-0DF2EB507E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7709B7CA-1DBE-48E1-A59A-0DF2EB507E98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
