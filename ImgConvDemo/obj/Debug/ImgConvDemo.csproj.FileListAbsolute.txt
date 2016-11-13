@@ -12,3 +12,6 @@ C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj
 C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.exe
 C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.pdb
 C:\Users\PixelZerg\Documents\Visual Studio 2015\Projects\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.VolumeDisplay.resources
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\bin\Debug\ImgConvDemo.exe.config
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.exe
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.pdb

@@ -44,6 +44,8 @@ namespace ImgConv
             this.trainer = new Trainer(this.net)
             {
                 TrainingMethod = Trainer.Method.Adadelta,
+                LearningRate = 0.01,
+                L2Decay = 0.001,
             };
 
             this.net.AddLayer(input);
@@ -133,6 +135,16 @@ namespace ImgConv
             //Volume prob = this.net.Forward(this.GetVolumeFromBitmap(bmp), false);
             //return prob.Weights;
             return this.net.Forward(this.GetVolumeFromBitmap(bmp), false).Weights;
+        }
+
+        public void Train(Bitmap bmp, double value)
+        {
+            this.trainer.Train(GetVolumeFromBitmap(bmp), value);
+        }
+
+        public void Train(Bitmap bmp, params double[] value)
+        {
+            this.trainer.Train(GetVolumeFromBitmap(bmp), value);
         }
     }
 
