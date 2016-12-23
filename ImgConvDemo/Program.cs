@@ -11,7 +11,7 @@ namespace ImgConvDemo
 {
     static class Program
     {
-        public static Classifier classifier = new Classifier(Classifier.InputFormat.RGB, 16, 16);
+        public static Classifier classifier = new Classifier(Classifier.InputFormat.RGB, 20, 20);
         public static Dictionary<Bitmap, int> dict = new Dictionary<Bitmap, int>();
 
         /// <summary>
@@ -30,14 +30,14 @@ namespace ImgConvDemo
             DirectoryInfo dCars = new DirectoryInfo("C:/Users/PixelZerg/Pictures/_Classification/Cars");
 
 
-            Console.WriteLine("Learning what a cat is...");
+            //Console.WriteLine("Learning what a cat is...");
             int no = 0;
             foreach (FileInfo f in dCats.GetFiles("*.jpg", SearchOption.TopDirectoryOnly))
             {
                 Bitmap bmp = new Bitmap(f.FullName);
-                classifier.Train(bmp, 0);
-                //Console.Write(".");
-                Console.WriteLine("\t" + classifier.trainer.Loss);
+                //classifier.Train(bmp, 0);
+                ////Console.Write(".");
+                //Console.WriteLine("\t" + classifier.trainer.Loss);
                 dict.Add(bmp,0);
                 if (no > 300)
                 {
@@ -45,16 +45,16 @@ namespace ImgConvDemo
                 }
                 no++;
             }
-            Console.WriteLine("[OK!]");
+            //Console.WriteLine("[OK!]");
 
-            Console.WriteLine("Learning what a car is...");
+            //Console.WriteLine("Learning what a car is...");
             no = 0;
             foreach (FileInfo f in dCars.GetFiles("*.jpg", SearchOption.TopDirectoryOnly))
             {
                 Bitmap bmp = new Bitmap(f.FullName);
-                classifier.Train(bmp, 1);
+                //classifier.Train(bmp, 1);
                 //Console.Write(".");
-                Console.WriteLine("\t" + classifier.trainer.Loss);
+                //Console.WriteLine("\t" + classifier.trainer.Loss);
                 dict.Add(bmp, 1);
                 if (no > 300)
                 {
@@ -62,12 +62,13 @@ namespace ImgConvDemo
                 }
                 no++;
             }
-            Console.WriteLine("[OK!]");
+            //Console.WriteLine("[OK!]");
 
-            for (int i = 0; i < 5; i++)
+            for (int i = 0; i < 50; i++)
             {
                 Revise();
             }
+            Console.WriteLine(classifier.Serialise());
 
             Application.Run(new Display());
 
