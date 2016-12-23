@@ -25,3 +25,5 @@ C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.Di
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.Properties.Resources.resources
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.VolumeDisplay.resources
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\obj\Debug\ImgConvDemo.csproj.GenerateResource.Cache
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConvDemo\bin\Debug\Newtonsoft.Json.xml

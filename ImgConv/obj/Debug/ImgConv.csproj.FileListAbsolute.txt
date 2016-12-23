@@ -11,3 +11,5 @@ C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\bin\Debug\ConvNetSharp.pdb
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\obj\Debug\ImgConv.csprojResolveAssemblyReference.cache
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\obj\Debug\ImgConv.dll
 C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\obj\Debug\ImgConv.pdb
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\bin\Debug\Newtonsoft.Json.dll
+C:\Users\PixelZerg\Documents\GitHub\ImgConv\ImgConv\bin\Debug\Newtonsoft.Json.xml

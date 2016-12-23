@@ -17,7 +17,7 @@ namespace ImgConv
             RGB,
         }
 
-        private Net net = null;
+        public Net net = null;
         public Trainer trainer = null;
 
         public InputFormat format = InputFormat.Greyscale;
@@ -159,6 +159,16 @@ namespace ImgConv
         //        this.trainer.Train(GetVolumeFromBitmap(bmp), value);
         //    }
         //}
+
+        public string Serialise()
+        {
+            return Newtonsoft.Json.JsonConvert.SerializeObject(this);
+        }
+
+        public static Classifier Deserialise(string json)
+        {
+            return Newtonsoft.Json.JsonConvert.DeserializeObject<Classifier>(json);
+        }
     }
 
     #region exceptions
